@@ -7,7 +7,7 @@
   {
     "op": "add",
     "path": "/ability/flashTime",
-    "value": 0.5
+    "value": 0.15
   },
   {
     "op": "add",
