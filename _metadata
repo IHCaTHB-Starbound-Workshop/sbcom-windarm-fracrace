@@ -1,11 +1,11 @@
 {
   "author" : "isaac as THE HONEY BADGER",
-  "description" : "[h1]Adds flash effect to let you know your hammer or axe are charged and ready to swing.[/h1]
-Flash begins 0.02 second before ready in order to account for reaction time.
+  "description" : "[h1]Adds glow effect to let you know your hammer or axe is charged and ready to swing.[/h1]
+Glow begins 0.02 second before charge is ready in order to account for reaction time.
 
 [url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
 Find the server version on [url=https://github.com/IsaacHart/sbmod-windarm]git.[/url]",
-  "friendlyName" : "Windup Armory Tweaks (Flash)",
+  "friendlyName" : "Windup Armory Tweaks (Glow)",
   "link" : "community.playstarbound.com/threads/124193/",
   "name" : "WINDARM.IHC",
   "version" : "0.1"
