@@ -1,6 +1,10 @@
 {
   "author" : "isaac as THE HONEY BADGER",
-  "description" : "[h1]Adds glow effect to let you know your hammer or axe is charged and ready to swing.[/h1]\nGlow begins 0.02 seconds before charge is ready in order to account for reaction time.\n\n[url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]\nFind the server version on [url=https://github.com/IsaacHart/sbmod-windarm]git.[/url]",
+  "description" : "[h1]Adds glow effect to let you know your hammer or axe is charged and ready to swing.[/h1]
+Glow begins 0.02 seconds before charge is ready in order to account for reaction time.
+
+[url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
+Find the server version on [url=https://github.com/IsaacHart/sbmod-windarm]git.[/url]",
   "friendlyName" : "Windup Armory Tweaks (Glow)",
   "link" : "steam://url/CommunityFilePage/782911333",
   "name" : "WINDARM.IHC",
