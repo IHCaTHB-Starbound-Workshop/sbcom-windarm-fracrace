@@ -4,10 +4,12 @@
 Glow begins 0.02 seconds before charge is ready in order to account for reaction time.
 
 [url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
-Find the server version on [url=https://github.com/IsaacHart/sbmod-windarm/releases/tag/0.1]git.[/url]",
+Find the server version on [url=https://github.com/IsaacHart/sbmod-windarm/releases/tag/0.2]git.[/url]",
   "friendlyName" : "Windup Armory Tweaks (Glow)",
+  "includes":[],
   "link" : "steam://url/CommunityFilePage/782911333",
   "name" : "WINDARM.IHC",
+  "requires":[],
   "steamContentId" : "782911333",
-  "version" : "0.1"
+  "version" : "0.2"
 }
