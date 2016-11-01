@@ -1,13 +1,8 @@
 [
   {
-    "op":"replace",
-    "path":"/ability/scripts/0",
-    "value": "/items/active/weapons/melee/abilities/hammer/IHChammersmash.lua"
-  },
-  {
     "op": "add",
     "path": "/ability/flashTime",
-    "value": 0.5
+    "value": 0.15
   },
   {
     "op": "add",
