@@ -23,7 +23,7 @@ function HammerSmash:windup(windupProgress)
       windupProgress = math.min(1, windupProgress + (self.dt / self.stances.windup.duration))
       self.weapon.relativeWeaponRotation, self.weapon.relativeArmRotation = self:windupAngle(windupProgress)
       if windupProgress > 0.98 then
-        self:readyFlash()
+        animator.setGlobalTag("bladeDirectives", "border=2;"..self.chargeBorder..";00000000")
       end
     else
       bounceProgress = math.min(1, bounceProgress + (self.dt / self.stances.windup.bounceTime))
@@ -125,8 +125,4 @@ function HammerSmash:windupAngle(ratio)
   local armRotation = interp.ranges(ratio, self.stances.windup.armAngle)
 
   return util.toRadians(weaponRotation), util.toRadians(armRotation)
-end
-function HammerSmash:readyFlash()
-  animator.setGlobalTag("bladeDirectives", self.flashDirectives)
-  self.flashTimer = self.flashTime
 end
