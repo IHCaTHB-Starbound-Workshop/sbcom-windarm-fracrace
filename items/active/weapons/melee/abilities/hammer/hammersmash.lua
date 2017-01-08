@@ -31,7 +31,7 @@ function HammerSmash:windup(windupProgress)
     end
     coroutine.yield()
   end
-
+  animator.setGlobalTag("bladeDirectives", "")
   if windupProgress >= 1.0 then
     if self.stances.preslash then
       self:setState(self.preslash)
