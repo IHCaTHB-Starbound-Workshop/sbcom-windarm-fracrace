@@ -65,6 +65,14 @@ function AxeCleave:fire()
   animator.setAnimationState("swoosh", "fire")
   animator.playSound("fire")
   animator.burstParticleEmitter(self.weapon.elementalType .. "swoosh")
+
+-- ******************* FR ADDONS FOR HAMMER SWINGS
+  local species = world.entitySpecies(activeItem.ownerEntityId())
+    if species == "floran" then  --florans use food when attacking
+      status.modifyResource("food", (status.resource("food") * -0.01) )
+    end
+-- ***********************************************
+
   util.wait(self.stances.fire.duration, function()
       local damageArea = partDamageArea("swoosh")
       self.weapon:setDamage(self.damageConfig, damageArea, self.fireTime)
@@ -94,4 +102,10 @@ function AxeCleave:windupAngle(ratio)
   local armRotation = interp.ranges(ratio, self.stances.windup.armAngle)
 
   return util.toRadians(weaponRotation), util.toRadians(armRotation)
+end
+
+function AxeCleave:uninit()
+  status.clearPersistentEffects("floranFoodPowerBonus")
+  status.clearPersistentEffects("apexbonusdmg")
+  self.blockCount = 0
 end

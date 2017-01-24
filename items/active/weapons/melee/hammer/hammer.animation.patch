@@ -1,7 +1,0 @@
-[
-  {
-    "op": "replace",
-    "path": "/animatedParts/parts/blade/properties/image",
-    "value": "<partImage><paletteSwaps>?<directives>?<bladeDirectives>"
-  }
-]
