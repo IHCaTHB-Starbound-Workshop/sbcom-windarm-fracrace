@@ -1,16 +1,15 @@
 {
   "author" : "isaac as THE HONEY BADGER",
-  "description" : "^#5aa9d6;Adds glow effect to let you know your hammer or axe is charged and ready to swing.^reset;
+  "description" : "^#5aa9d6;Allows hammers and axes to glow when ready while still benefitting from racial buffs.^reset;
 
-Glow begins 0.02 seconds before charge is ready in order to account for reaction time.
-Check out Argle Bargles Easier Hammers and Axes or my own Windup Armory Tweaks (Auto) for other swing options.
+This mod is required in order to restore full functionality of both mods. Requires Frackin' Races and Windup Weapons Glow to work.
+
+Check out Argle Bargles Easier Hammers and Axes or my own Windup Weapons Glow for other windup options.
 
 For more, click the MEGATHREAD link from the steam page.",
   "friendlyName" : "Windup Weapons Glow! - Frackin Races compatibility patch",
   "includes":["WINDARM.IHC","FrackinRaces"],
-  "link" : "steam://url/CommunityFilePage/782911333",
   "name" : "WINDARM-FRACRACE.IHC",
   "requires":["WINDARM.IHC","FrackinRaces"],
-  "steamContentId" : "782911333",
   "version" : "0.1"
 }

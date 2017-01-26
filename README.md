@@ -1,4 +1,4 @@
-# sbmod-windarm
+# sbcom-windarm-fracrace
 
 Code licensed under GPLv3, file included
 
